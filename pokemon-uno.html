@@ -4,43 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon uno</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
  
-    
-<style>
+    <body style="background-color: paleturquoise"></style>
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 13px;
-}
-    
-.div1 {
-    grid-column: span 3 / span 3;
-}
+    <style>
+    .text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gray
+    }
 
-.div2 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 2;
-}
+    </style>
 
-.div3 {
-    grid-row: span 2 / span 2;
-    grid-column-start: 1;
-    grid-row-start: 2;
-}
-
-.div4 {
-    grid-row: span 2 / span 2;
-    grid-row-start: 2;
-}
-        
-</style>
-
-<b></div1>
+<div class="parent">
+    <div class="div1">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="text">Inicio</a></li>
+                <li class="pokemon-btn"><a href="pokemon-uno.html" class="text">Mega-Steelix</a></li>
+                <li class="pokemon-btn"><a href="pokemon-dos.html" class="text">Powmo</a></li>
+                <li class="pokemon-btn"><a href="pokemon-tres.html" class="text">Azumarill</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="div2">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10072.png">
+    </div>
+    <div class="div3">
+        <h2 class="text">Habilidades</h2>
+        <p class="text">sand-force</p>
+    </div>
+    <div class="div4">
+        <h1 class="text">Mega-Steelix</h1>
+    </div>
+</div>
 
 </body>
 </html>
